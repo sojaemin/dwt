@@ -190,6 +190,7 @@ public class Main extends Application {
 			}
 			TreeView<String> tree = new TreeView<String>(rootItem);
 			tree.setEditable(true);
+			tree.setShowRoot(false);
 			tree.setCellFactory((TreeView<String> p) ->
 			new TextFieldTreeCellImpl());
 			tp.setContent(tree);
