@@ -1,4 +1,4 @@
-1package dwt.main.view;
+package dwt.main.view;
 
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.MenuItem;
